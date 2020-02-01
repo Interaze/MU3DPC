@@ -1,0 +1,15 @@
+.nodrag{
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    margin: 0;
+    padding: 0;
+}

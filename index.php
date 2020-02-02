@@ -26,13 +26,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 nodrag " src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="First slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 nodrag " src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Second slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 nodrag " src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Third slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Third slide">
                 </div>
             </div>
             </div>
@@ -45,9 +45,8 @@
                 <a href="#about"><button type="button" class="btn btn-outline-danger mt-2">Learn More</button></a>
             </div>
         </div>
-
     </div>
-    <div class="container">
+    <div class="container pl-5 border-left border-info">
         <h1 class="text-primary ">Recent Events</h1>
         <div class="row no-gutters">
             <div class="card mb-3 col-lg-6 col-md-12 mx-auto" style="max-width: 540px;">
@@ -107,6 +106,7 @@
                 </div>
             </div>
         </div>
+        <div class="row"><button type="button" class="btn btn-outline-info p-3 mx-auto">View More Events</button></div>
     </div>
     <a class="anchor" id="about"></a>
     <div class="container bg-secondary m-0 px-4 my-5 d-block col-md-12 col-lg-9 mx-auto">
@@ -133,38 +133,35 @@
             </div>
         </div>
     </div>
-    <div class="container" style="height: 300px">
-        <h1 class="text-primary ">Mission Statement:</h1>
+    <div class="container border-right border-success py-3 my-5 pr-5">
+        <h1 class="text-primary text-right pb-3">Mission Statement</h1>
+        <blockquote class="blockquote text-right">
+            <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
+            <footer class="blockquote-footer">2020 Executive committee</footer>
+        </blockquote>
     </div>
-    <div class="row col-12 m-0" style="height: 300px">
-        <h1 class="text-primary">Education:</h1>
-        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+
+<div class="container text-success border border-success mb-3 p-0">
+  <div class="card-header text-success">Header</div>
+  <div class="card-body">
+    <h5 class="card-title text-success">Success card title</h5>
+    <p class="card-text text-success">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+        <div class="container text-white bg-info mb-3 p-0">
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-    </div>
-    <div class="row col-12 m-0" style="height: 300px">
-        <h1 class="text-primary">Research:</h1>
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="container text-white mb-3 p-0" style="background-color: #ff2154; ">
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title">Success card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
-</div>
-    </div>
-    <div class="row col-12 m-0" style="height: 300px">
-        <h1 class="text-primary">Community:</h1>
-        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
     </div>
     <?php include ('footer.html'); ?>
 

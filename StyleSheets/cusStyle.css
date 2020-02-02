@@ -5,7 +5,7 @@ html {
 a.anchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -90px;
     visibility: hidden;
 }
 
@@ -14,7 +14,6 @@ a.anchor {
     top: 0;
     opacity: 1 !important;
     z-index: 5;
-
 }
 
 .view-cap, .view-container-border { background-color:black; }
@@ -55,13 +54,17 @@ a.anchor {
     font-size: 21px;
 }
 
+.carousel-item .nodrag{
+    max-height: 75vw;
+    width: auto ;
+}
+
+.imgFrame{
+    background-color: #bbbbbb;
+}
+
 .title{
-    font-size: 23px;
-    font-weight: 500;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+
 }
 
 .tricon{

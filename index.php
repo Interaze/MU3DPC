@@ -46,6 +46,7 @@
             </div>
         </div>
     </div>
+
     <div class="container pl-5 border-left border-info">
         <h1 class="text-primary ">Recent Events</h1>
         <div class="row no-gutters">
@@ -106,33 +107,47 @@
                 </div>
             </div>
         </div>
-        <div class="row"><button type="button" class="btn btn-outline-info p-3 mx-auto">View More Events</button></div>
+        <div class="row">
+            <button type="button" class="btn btn-outline-info p-3 mx-auto">View More Events</button>
+        </div>
     </div>
+
     <a class="anchor" id="about"></a>
     <div class="container bg-secondary m-0 px-4 my-5 d-block col-md-12 col-lg-9 mx-auto">
         <h1 class="text-center d-block">Our Focus</h1>
         <br>
         <div class="d-md-flex d-sm-block justify-content-center">
-            <div class="card border-0 col-md-3 col-sm-12 mx-sm-0 mx-md-2 my-sm-3 my-md-0">
-                <i class="fas fa-university text-center tricon" style="color: forestgreen"></i>
-                <div class="card-body px-0">
-                    <h3 class="card-title text-center">Education</h5>
+            <a href="#Education">
+                <div class="card border-0 col-md-3 col-sm-12 mx-sm-0 mx-md-2 my-sm-3 my-md-0">
+                    <a href="#Community" class="text-center">
+                        <i class="fas fa-university text-center tricon" style="color: forestgreen"></i>
+                        <div class="card-body px-0">
+                            <h3 class="card-title text-center">Education</h5>
+                        </div>
+                    </a>
                 </div>
-            </div>
+            </a>
+            <a href="#Research">
+                <div class="card border-0 col-md-3 col-sm-12 mx-sm-0 mx-md-2 my-md-0 my-sm-3">
+                    <a href="#Research" class="text-center">
+                        <i class="fas fa-vial text-center tricon" style="color: royalblue"></i>
+                        <div class="card-body px-0">
+                            <h3 class="card-title text-center">Research</h5>
+                        </div>
+                    </a>
+                </div>
+            </a>
             <div class="card border-0 col-md-3 col-sm-12 mx-sm-0 mx-md-2 my-md-0 my-sm-3">
-                <i class="fas fa-vial text-center tricon" style="color: royalblue"></i>
-                <div class="card-body px-0">
-                    <h3 class="card-title text-center">Research</h5>
-                </div>
-            </div>
-            <div class="card border-0 col-md-3 col-sm-12 mx-sm-0 mx-md-2 my-md-0 my-sm-3">
-                <i class="fas fa-hand-holding-heart text-center tricon" style="color: #ff2154"></i>
-                <div class="card-body px-0">
-                    <h3 class="card-title text-center">Community</h5>
-                </div>
+                <a href="#Community" class="text-center">
+                    <i class="fas fa-hand-holding-heart text-center tricon" style="color: #ff2154"></i>
+                    <div class="card-body px-0">
+                        <h3 class="card-title text-center">Community</h5>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
+
     <div class="container border-right border-success py-3 my-5 pr-5">
         <h1 class="text-primary text-right pb-3">Mission Statement</h1>
         <blockquote class="blockquote text-right">
@@ -141,27 +156,86 @@
         </blockquote>
     </div>
 
-<div class="container text-success border border-success mb-3 p-0">
-  <div class="card-header text-success">Header</div>
-  <div class="card-body">
-    <h5 class="card-title text-success">Success card title</h5>
-    <p class="card-text text-success">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+    <a class="anchor" id="Education"></a>
+    <div class="container mb-3 p-0">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex align-self-center">
+                <div class="mx-auto text-center">
+                    <i class="fas fa-university tricon mainIcons" style="color: forestgreen;"></i>
+                    <div class="card-body px-0">
+                        <h3 class="card-title">Education</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div class="container text-white bg-info mb-3 p-0">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-        <div class="container text-white mb-3 p-0" style="background-color: #ff2154; ">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Success card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+    <a class="anchor" id="Research"></a>
+    <div class="container mb-3 p-0">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex align-self-center">
+                <div class="mx-auto text-center">
+                    <i class="fas fa-vial text-center tricon mainIcons" style="color: royalblue"></i>
+                    <div class="card-body px-0">
+                        <h3 class="card-title">Research</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="anchor" id="Community"></a>
+    <div class="container mb-3 p-0">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex align-self-center">
+                <div class="mx-auto text-center">
+                    <i class="fas fa-hand-holding-heart text-center tricon mainIcons" style="color: #ff2154"></i>
+                    <div class="card-body px-0">
+                        <h3 class="card-title">Community</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <?php include ('footer.html'); ?>
 

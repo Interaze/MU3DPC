@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 .navbar{
     position: sticky !important;
     top: 0;
@@ -51,4 +62,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.tricon{
+    font-size: 55px;
 }

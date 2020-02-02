@@ -1,3 +1,28 @@
+.navbar{
+    position: sticky !important;
+    top: 0;
+    opacity: 1 !important;
+    z-index: 5;
+
+}
+
+.view-cap, .view-container-border { background-color:black; }
+.mv-daynames-table { color:white; background:black; }
+.mv-event-container { border-top:1px solid black; }
+
+@media only screen and (max-width: 900px) {
+  h1.autoscale {
+    font-size: 225%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1.autoscale {
+    font-size: 3.75vw;
+  }
+}
+
+
 .nodrag{
     user-drag: none;
     user-select: none;
@@ -12,4 +37,18 @@
     width: 75px;
     margin: 0;
     padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 21px;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }

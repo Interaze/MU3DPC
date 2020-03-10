@@ -1,29 +1,19 @@
 stages:
-  - build
-  - test
-  - deploy
+    - build
+    - test
 
-job 0:
-  stage: .pre
-  script: make something useful before build stage
+build:
+    stage: build
+    script:
+        - echo "Building"
+        - mkdir build
+        - touch build/info.txt
+    artifacts:
+        paths:
+            - build/
 
-job 1:
-  stage: build
-  script: make build dependencies
-    - echo "Test"
-
-job 2:
-  stage: build
-  script: make build artifacts
-
-job 3:
-  stage: test
-  script: make test
-
-job 4:
-  stage: deploy
-  script: make deploy
-
-job 5:
-  stage: .post
-  script: make something useful at the end of pipeline
+test:
+    stage: test
+    script:
+        - echo "Testing"
+        - test -f "build/info.txt"

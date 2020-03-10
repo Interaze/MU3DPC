@@ -9,8 +9,8 @@
     <meta name="author" content="Christopher Scully">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="StyleSheets/theme.css">
-    <link rel="stylesheet" href="StyleSheets/cusStyle.css">
+    <link rel="stylesheet" href="./StyleSheets/theme.css">
+    <link rel="stylesheet" href="./StyleSheets/cusStyle.css">
 
 </head>
 <body>
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="container border-left border-info">
+    <div class="container border-left border-info px-5">
         <h1 class="text-primary ">Recent Events</h1>
         <div class="row no-gutters">
             <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">

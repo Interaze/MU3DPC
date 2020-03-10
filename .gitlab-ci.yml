@@ -1,9 +1,11 @@
+image: docker:stable
+
 stages:
     - build
     - test
     - deploy
 
-build:
+buildImages:
     stage: build
     script:
         - echo "Building"
@@ -18,3 +20,8 @@ test:
     script:
         - echo "Test"
         - test -f "build/info.txt"
+
+deploy:
+    stage: deploy
+    script:
+        - echo "deployed system"

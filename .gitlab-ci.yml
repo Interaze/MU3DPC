@@ -17,8 +17,9 @@ build:
         - echo "building"
         - docker run hello-world
         - docker build -t interaze/service-driver ./ServiceDriver
-        - docker build -t interaze/static-front ./FrontEnd
-        - docker build -t interaze/dynamic-front ./FrontEnd/nginx
+        - docker build -t interaze/dynamic-front ./FrontEnd
+        - docker build -t interaze/statuc-front ./FrontEnd/nginx
+        - echo "$DockerUser" | docker login -u "$DockerPass" --password-stdin
 
 testFrontStatic:
     stage: test

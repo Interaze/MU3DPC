@@ -1,4 +1,10 @@
-image: docker:stable
+image: docker:19.03.5
+
+services:
+    - docker:19.03.1-dind
+
+before_script:
+    - docker info
 
 stages:
     - build
@@ -9,8 +15,8 @@ build:
     stage: build
     script:
         - echo "Building"
-        - mkdir build
-        - touch build/info.txt
+        - docker build -t hello-world .
+        - docker run hello-world
     artifacts:
         paths:
             - build/

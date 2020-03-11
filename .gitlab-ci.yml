@@ -5,17 +5,7 @@ stages:
     - test
     - deploy
 
-pullCode:
-    stage: build
-    script:
-        - echo "Building"
-        - mkdir build
-        - touch build/info.txt
-    artifacts:
-        paths:
-            - build/
-
-buildImages:
+build:
     stage: build
     script:
         - echo "Building"

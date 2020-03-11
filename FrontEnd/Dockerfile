@@ -4,6 +4,5 @@ COPY ./ ./
 RUN for i in *.php; do php -l $i; done
 
 FROM php:7.0-fpm
-EXPOSE 9000
 WORKDIR '/app'
 COPY --from=builder /app /app

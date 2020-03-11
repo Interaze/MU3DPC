@@ -14,24 +14,21 @@ stages:
 build:
     stage: build
     script:
-        - echo "Building"
-        - docker build -t hello-world .
+        - echo "building"
         - docker run hello-world
-    artifacts:
-        paths:
-            - build/
+        - docker build -t interaze/service-driver ./ServiceDriver
+        - docker build -t interaze/static-front ./FrontEnd
+        - docker build -t interaze/dynamic-front ./FrontEnd/nginx
 
 testFrontStatic:
     stage: test
     script:
         - echo "Test"
-        - test -f "build/info.txt"
 
 testFrontPHP:
     stage: test
     script:
         - echo "Test"
-        - test -f "build/info.txt"
 
 deploy:
     stage: deploy

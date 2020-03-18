@@ -50,7 +50,9 @@ push:
         - docker load -i ./artifacts/service-driver.tar
         - docker load -i ./artifacts/dynamic-front.tar
         - docker load -i ./artifacts/static-front.tar
-        - echo "$DOCKER_PASSWORD" | docker login -u $DOCKER_USER --password-stdin
+        #- echo "$DOCKER_PASSWORD" | docker login -u $DOCKER_USER --password-stdin
+        - docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD" $CI_REGISTRY
+
         - docker images
         - docker push interaze/service-driver
         - docker push interaze/dynamic-front

@@ -9,17 +9,28 @@ before_script:
 stages:
     - build
     - test
+    - push
     - deploy
 
-build:
+buildImg:
     stage: build
     script:
         - echo "building"
         - docker run hello-world
         - docker build -t interaze/service-driver ./ServiceDriver
         - docker build -t interaze/dynamic-front ./FrontEnd
-        - docker build -t interaze/statuc-front ./FrontEnd/nginx
-        - echo "$DockerUser" | docker login -u "$DockerPass" --password-stdin
+        - docker build -t interaze/static-front ./FrontEnd/nginx
+        - docker images
+        - mkdir ./artifacts
+        - docker save -o ./artifacts/service-driver.tar interaze/service-driver
+        - docker save -o ./artifacts/dynamic-front.tar interaze/dynamic-front
+        - docker save -o ./artifacts/static-front.tar interaze/static-front
+
+    artifacts:
+        paths:
+            - ./artifacts/service-driver.tar
+            - ./artifacts/dynamic-front.tar
+            - ./artifacts/static-front.tar
 
 testFrontStatic:
     stage: test
@@ -31,9 +42,33 @@ testFrontPHP:
     script:
         - echo "Test"
 
+push:
+    stage: push
+    only:
+        - master
+    script:
+        - docker load -i ./artifacts/service-driver.tar
+        - docker load -i ./artifacts/dynamic-front.tar
+        - docker load -i ./artifacts/static-front.tar
+        - echo "$DockerPass" | docker login -u $DockerUser --password-stdin
+        - docker images
+        - docker push interaze/service-driver
+        - docker push interaze/dynamic-front
+        - docker push interaze/static-front
+
 deploy:
     stage: deploy
     only:
         - master
+    environment:
+        name: production
+        url: $SERVER_URL
     script:
-        - echo "deployed system"
+        - apk update
+        - apk add --no-cache openssh
+        - apk add --no-cache sshpass
+        - rm -rf .git
+        - sshpass -p $PASSWORD scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r $(pwd) $PROD_USER@$SERVER_URL:~/
+        - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $PROD_USER@$SERVER_URL 'echo "test"'
+        #to call docker-compose also copy over docker images to prod
+    needs: ["push"]

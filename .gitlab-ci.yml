@@ -69,6 +69,6 @@ deploy:
         - apk add --no-cache sshpass
         - rm -rf .git
         - sshpass -p $PASSWORD scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r $(pwd) $PROD_USER@$SERVER_URL:~/
-        - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $PROD_USER@$SERVER_URL 'echo "test"'
+        - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $PROD_USER@$SERVER_URL 'cd mu3dpc; docker-compose up -d'
         #to call docker-compose also copy over docker images to prod
     needs: ["push"]

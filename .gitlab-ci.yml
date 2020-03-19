@@ -15,8 +15,6 @@ stages:
 buildImg:
     stage: build
     script:
-        - echo "building"
-        - docker run hello-world
         - docker build -t interaze/service-driver ./ServiceDriver
         - docker build -t interaze/dynamic-front ./FrontEnd
         - docker build -t interaze/static-front ./FrontEnd/nginx
@@ -69,6 +67,6 @@ deploy:
         - apk add --no-cache sshpass
         - rm -rf .git
         - sshpass -p $PASSWORD scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r $(pwd) $PROD_USER@$SERVER_URL:~/
-        - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $PROD_USER@$SERVER_URL 'cd mu3dpc; docker-compose up -d'
+        - sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $PROD_USER@$SERVER_URL 'docker system prune -af;cd mu3dpc; docker-compose up -d'
         #to call docker-compose also copy over docker images to prod
     needs: ["push"]

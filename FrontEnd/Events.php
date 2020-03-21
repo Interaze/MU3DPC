@@ -4,8 +4,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A free toolkit for Developing and Testing different algorithms.">
-    <meta name="keywords" content="Graph Building,Algorithms,SandBox,D3.js,HTML,CSS,JS">
+    <meta name="description" content="The Offical Mizzou 3D Printing Club Website, dedicated to news, updates and information regarding the club.">
+    <meta name="keywords" content="3D, Printing, Development, Mizzou, Club, Org, Organization">
     <meta name="author" content="Christopher Scully">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

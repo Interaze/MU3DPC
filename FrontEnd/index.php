@@ -26,13 +26,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="First slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="images/makemizzou.jpeg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/19961192_104753340183240_5870410547231831003_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=C4vVQZRWw0sAX-MULJo&_nc_ht=scontent-ort2-1.xx&oh=26943783581e6f5877b1cc305ca6dadf&oe=5E9EBA18" alt="Second slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="images/jackwithbox.jpeg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Third slide">
+                    <img class="d-block w-100 nodrag mx-auto" src="images/slideshow2.jpg" alt="Third slide">
                 </div>
             </div>
             </div>
@@ -42,46 +42,45 @@
                 <h1 class="autoscale">
                     A Club Dedicated to Education, Innovation, and Growth
                 </h1>
-                <a href="#about"><button type="button" class="btn btn-outline-danger mt-2">Learn More</button></a>
+                <a href="People.php"><button type="button" class="btn btn-outline-danger mt-2">Meet our team</button></a>
             </div>
         </div>
     </div>
 
     <div class="container border-left border-info px-5">
-        <h1 class="text-primary ">Recent Events</h1>
+        <h1 class="text-primary ">In the news</h1>
         <div class="row no-gutters">
             <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="..." class="card-img" alt="...">
+                            <img src="https://themaneater.com/media/2020/35/photos/3dpc_Michelle%20Gutierrez.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								<h5><a href="https://www.themaneater.com/stories/news/3d-printing-club-helps-others-while-improving-members-skills">3D Printing Club helps others while improving members' skills</a></h1>                         
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                    
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
+           <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="..." class="card-img" alt="...">
+                            <img src="https://engineering.missouri.edu/wp-content/uploads/2020/01/3d-hand-1-web.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								<h5><a href="https://engineering.missouri.edu/2020/01/3d-printers-in-service-to-others/">3D Printers in Service to Others</a></h1>                         
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                    
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+			<!--
             <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
                 <div class="card">
                     <div class="row no-gutters">
@@ -118,7 +117,9 @@
         <div class="row">
             <button type="button" class="btn btn-outline-info p-3 mx-auto">View More Events</button>
         </div>
+		-->
     </div>
+	
 
     <a class="anchor" id="about"></a>
     <div class="container bg-secondary m-0 px-4 my-5 d-block col-md-12 col-lg-9 mx-auto">

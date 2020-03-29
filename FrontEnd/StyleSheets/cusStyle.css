@@ -25,6 +25,24 @@ button.dropdown-toggle::after{
 .mv-daynames-table { color:white; background:black; }
 .mv-event-container { border-top:1px solid black; }
 
+@media only screen and (max-width: 575px) {
+  .Rsideshadow {
+      -webkit-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+      -moz-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+      box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+  }
+  .Gsideshadow {
+      -webkit-box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
+      -moz-box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
+      box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
+  }
+  .Bsideshadow {
+      -webkit-box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
+      -moz-box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
+      box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
+  }
+}
+
 @media only screen and (max-width: 900px) {
   h1.autoscale {
     font-size: 225%;

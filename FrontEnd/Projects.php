@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="StyleSheets/theme.css">
     <link rel="stylesheet" href="StyleSheets/cusStyle.css">
 
+    <style>
+    .card-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    </style>
+
 </head>
 <body>
     <?php include ('navBar.html'); ?>

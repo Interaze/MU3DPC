@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="col-lg-5 col-md-6 col-sm-12 h-100 align-self-center pr-sm-0 pr-md-4 order-md-1 order-sm-2 px-0">
-            <div class="border-right border-sm-0 border-danger px-sm-0 px-md-5 py-4 pl-xl-0">
+            <div class="border-right border-sm-0 border-danger Rsideshadow px-sm-0 px-md-5 py-4 pl-xl-0">
                 <h1 class="autoscale">
                     A Club Dedicated to Education, Innovation, and Growth
                 </h1>
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="container border-left border-info px-5">
+    <div class="container border-left border-info Bsideshadow px-5">
         <h1 class="text-primary ">Recent Events</h1>
         <div class="row no-gutters">
             <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
@@ -155,7 +155,7 @@
         </div>
     </div>
 
-    <div class="container border-right border-success py-3 my-5 pr-5">
+    <div class="container border-right border-success Gsideshadow py-3 my-5 pr-5">
         <h1 class="text-primary text-right pb-3">Mission Statement</h1>
         <blockquote class="blockquote text-right">
             <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>

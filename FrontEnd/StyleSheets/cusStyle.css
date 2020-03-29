@@ -25,22 +25,25 @@ button.dropdown-toggle::after{
 .mv-daynames-table { color:white; background:black; }
 .mv-event-container { border-top:1px solid black; }
 
+@media only screen and (max-width: 767px) {
+    .Rsideshadow {
+        -webkit-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+        -moz-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+        box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
+    }
+}
+
 @media only screen and (max-width: 575px) {
-  .Rsideshadow {
-      -webkit-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
-      -moz-box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
-      box-shadow: inset -8px -1px 6px -8px rgba(255,20,20,0.75);
-  }
-  .Gsideshadow {
+    .Gsideshadow {
       -webkit-box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
       -moz-box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
       box-shadow: inset -8px -1px 6px -8px rgba(36,184,22,1);
-  }
-  .Bsideshadow {
+    }
+    .Bsideshadow {
       -webkit-box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
       -moz-box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
       box-shadow: inset 8px -1px 6px -8px rgba(20,87,255,1);
-  }
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -54,7 +57,6 @@ button.dropdown-toggle::after{
     font-size: 3.75vw;
   }
 }
-
 
 .nodrag{
     user-drag: none;
@@ -80,10 +82,6 @@ button.dropdown-toggle::after{
 .carousel-item .nodrag{
     max-height: 75vw;
     width: auto ;
-}
-
-.imgFrame{
-    background-color: #bbbbbb;
 }
 
 .tricon{

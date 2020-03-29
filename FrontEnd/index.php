@@ -16,8 +16,8 @@
 <body>
     <?php include ('navBar.html'); ?>
 
-    <div class="bg-secondary row d-flex my-md-5 mx-sm-0 mx-md-4 mx-xl-auto my-sm-0 col-xl-10 mx-0 px-0">
-        <div class="imgFrame align-self-center col-lg-7 col-md-6 col-sm-12 p-0 order-md-2 order-sm-1">
+    <div class="bg-secondary row d-flex my-md-5 mx-sm-0 mx-md-4 mx-xl-auto col-xl-10 mx-0 px-0 mt-5">
+        <div class="imgFrame align-self-center col-lg-7 col-md-6 col-sm-12 p-0 order-md-2 order-sm-1 px-3 px-md-0">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="col-lg-5 col-md-6 col-sm-12 h-100 align-self-center pr-sm-0 pr-md-4 order-md-1 order-sm-2 px-0">
-            <div class="border-right border-sm-0 border-danger Rsideshadow px-sm-0 px-md-5 py-4 pl-xl-0">
+            <div class="border-right border-sm-0 border-danger Rsideshadow px-4 px-md-5 py-4 pl-xl-0 mb-5 mt-3">
                 <h1 class="autoscale">
                     A Club Dedicated to Education, Innovation, and Growth
                 </h1>
@@ -164,9 +164,9 @@
     </div>
 
     <a class="anchor" id="Education"></a>
-    <div class="container mb-3 p-0">
+    <div class="container mb-4 p-0">
         <div class="row no-gutters">
-            <div class="col-md-4 d-flex align-self-center">
+            <div class="col-md-4 mt-5 d-flex align-self-center">
                 <div class="mx-auto text-center">
                     <i class="fas fa-university tricon mainIcons" style="color: forestgreen;"></i>
                     <div class="card-body px-0">
@@ -191,9 +191,9 @@
     </div>
 
     <a class="anchor" id="Research"></a>
-    <div class="container mb-3 p-0">
+    <div class="container mb-4 p-0">
         <div class="row no-gutters">
-            <div class="col-md-4 d-flex align-self-center">
+            <div class="col-md-4 mt-5 d-flex align-self-center">
                 <div class="mx-auto text-center">
                     <i class="fas fa-vial text-center tricon mainIcons" style="color: royalblue"></i>
                     <div class="card-body px-0">
@@ -218,9 +218,9 @@
     </div>
 
     <a class="anchor" id="Community"></a>
-    <div class="container mb-3 p-0">
+    <div class="container mb-4 p-0">
         <div class="row no-gutters">
-            <div class="col-md-4 d-flex align-self-center">
+            <div class="col-md-4 mt-5 d-flex align-self-center">
                 <div class="mx-auto text-center">
                     <i class="fas fa-hand-holding-heart text-center tricon mainIcons" style="color: #ff2154"></i>
                     <div class="card-body px-0">

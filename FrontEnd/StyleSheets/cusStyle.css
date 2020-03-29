@@ -88,6 +88,13 @@ button.dropdown-toggle::after{
     -ms-transform: translate(-50%, -50%);
 }
 
+.card-img{
+    transform: translate(-50%, -25%);
+    left: 50%;
+    top: 25%;
+    position: absolute;
+}
+
 div.no-border {
     border: 0 !important;
 }

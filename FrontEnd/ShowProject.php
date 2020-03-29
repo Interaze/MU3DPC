@@ -15,8 +15,8 @@
 </head>
 <body>
     <?php include ('navBar.html'); ?>
-    <div class="container pl-0 mt-5">
-        <h1 class="mx-4 mb-4" class="display-4 pb-4" style="font-size: 3rem; font-weight: 400; text-decoration: underline;">Club Projects</h1>
+    <div class="container mt-5">
+        <h1 class="mx-4 mb-4" class="display-4 pb-4" style="font-size: 3rem; font-weight: 400; text-decoration: underline;">Current Projects</h1>
     </div>
     <div class="container border-left border-success mb-5 pt-5 mt-1 mx-auto">
         <h1 class="mx-4 mb-4">Beginners Group</h1>

@@ -1,0 +1,31 @@
+version: '3'
+services:
+
+  service_balance:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./ServiceDriver
+    volumes:
+      - ./ServiceDriver/default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - '3050:80'
+    links:
+      - static_front
+
+  static_front:
+    build:
+      dockerfile: Dockerfile
+      context: ./FrontEnd/nginx
+    volumes:
+      - ./FrontEnd/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./FrontEnd:/code
+    links:
+      - dynamic_front
+
+  dynamic_front:
+    build:
+      dockerfile: Dockerfile
+      context: ./FrontEnd
+    volumes:
+      - ./FrontEnd:/code

@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="StyleSheets/cusStyle.css">
 
     <style>
-    .card-body{
-        padding-left: 0;
-        padding-right: 0;
-    }
+        .card-body{
+            padding-left: 0;
+            padding-right: 0;
+        }
     </style>
 
 </head>

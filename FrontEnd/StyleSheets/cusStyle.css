@@ -21,6 +21,11 @@ button.dropdown-toggle::after{
     z-index: 5;
 }
 
+.title {
+    font-weight: 400;
+    font-size: 26px;
+}
+
 .view-cap, .view-container-border { background-color:black; }
 .mv-daynames-table { color:white; background:black; }
 .mv-event-container { border-top:1px solid black; }

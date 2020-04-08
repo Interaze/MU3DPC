@@ -8,7 +8,7 @@
     <meta name="keywords" content="3D, Printing, Development, Mizzou, Club, Org, Organization">
     <meta name="author" content="Christopher Scully">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="StyleSheets/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="StyleSheets/theme.css">
     <link rel="stylesheet" href="StyleSheets/cusStyle.css">
 

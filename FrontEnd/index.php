@@ -8,10 +8,7 @@
         <meta name="keywords" content="Graph Building,Algorithms,SandBox,D3.js,HTML,CSS,JS">
         <meta name="author" content="Christopher Scully">
 
-        <link rel="stylesheet" href="StyleSheets/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="./StyleSheets/theme.css">
-        <link rel="stylesheet" href="./StyleSheets/cusStyle.css">
-
+        <?php include ('heading.html'); ?>
     </head>
     <body>
         <?php include ('navBar.html'); ?>
@@ -245,9 +242,5 @@
         </div>
 
         <?php include ('footer.html'); ?>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.buttflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>

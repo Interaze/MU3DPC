@@ -7,11 +7,8 @@
         <meta name="description" content="A free toolkit for Developing and Testing different algorithms.">
         <meta name="keywords" content="Graph Building,Algorithms,SandBox,D3.js,HTML,CSS,JS">
         <meta name="author" content="Christopher Scully">
-
-        <link rel="stylesheet" href="./Stylesheets/bootstrap.min.css">
-        <link rel="stylesheet" href="./StyleSheets/theme.css">
-        <link rel="stylesheet" href="./StyleSheets/cusStyle.css">
-
+      
+        <?php include ('heading.html'); ?>
     </head>
     <body>
         <?php include ('navBar.html'); ?>
@@ -245,9 +242,5 @@
         </div>
 
         <?php include ('footer.html'); ?>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>

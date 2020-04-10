@@ -7,7 +7,7 @@
         <meta name="description" content="A free toolkit for Developing and Testing different algorithms.">
         <meta name="keywords" content="Graph Building,Algorithms,SandBox,D3.js,HTML,CSS,JS">
         <meta name="author" content="Christopher Scully">
-
+      
         <?php include ('heading.html'); ?>
     </head>
     <body>

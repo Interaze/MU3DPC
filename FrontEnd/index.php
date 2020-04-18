@@ -8,9 +8,7 @@
         <meta name="keywords" content="Graph Building,Algorithms,SandBox,D3.js,HTML,CSS,JS">
         <meta name="author" content="Christopher Scully">
 
-        <link rel="stylesheet" href="StyleSheets/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="./StyleSheets/theme.css">
-        <link rel="stylesheet" href="./StyleSheets/cusStyle.css">
+        <?php include ('header.html'); ?>
 
     </head>
     <body>
@@ -49,74 +47,13 @@
 
         <div class="container border-left border-info Bsideshadow px-5">
             <h1 class="text-primary ">Recent Events</h1>
-            <div class="row no-gutters">
-                <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" mb-3 col-lg-6 col-md-12 mx-lg-auto mx-md-0 px-2">
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row no-gutters" id="eventTray">
+                
             </div>
             <div class="row">
-                <button type="button" class="btn btn-outline-info p-3 mx-auto">View More Events</button>
+                <a class="mx-auto" href="/Events">
+                    <button type="button" class="btn btn-outline-info p-3">View More Events</button>
+                </a>
             </div>
         </div>
 
@@ -245,9 +182,7 @@
         </div>
 
         <?php include ('footer.html'); ?>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.buttflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="/Scripting/index.js"></script>
+        <script>pullIndexEvents()</script>
     </body>
 </html>

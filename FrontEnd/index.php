@@ -37,7 +37,7 @@
             <div class="col-lg-5 col-md-6 col-sm-12 h-100 align-self-center pr-sm-0 pr-md-4 order-md-1 order-sm-2 px-0">
                 <div class="border-right border-sm-0 border-danger Rsideshadow px-4 px-md-5 py-4 pl-xl-0 mb-5 mt-3">
                     <h1 class="autoscale">
-                        A Club Dedicated to Education, Innovation, and Growth
+                        An Organization Dedicated to Learning, Exploration, and Impacts
                     </h1>
                     <a href="#about"><button type="button" class="btn btn-outline-danger mt-2">Learn More</button></a>
                 </div>
@@ -153,10 +153,12 @@
         </div>
 
         <div class="container border-right border-success Gsideshadow py-3 my-5 pr-5">
-            <h1 class="text-primary text-right pb-3">Mission Statement</h1>
+            <!--
+                <h1 class="text-primary text-right pb-3">Mission Statement</h1>
+        -->
             <blockquote class="blockquote text-right">
-                <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
-                <footer class="blockquote-footer">2020 Executive committee</footer>
+                <h2 class="mb-0">We are comitted fostering an environment where students learn engineering and practical skills while perfoming hands-on projects with impacts beyond the classroom and MU.</h2>
+                <footer class="blockquote-footer">Mission Statement 2020</footer>
             </blockquote>
         </div>
 
@@ -173,15 +175,11 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!--<h5 class="card-title">Card title</h5>-->
+                        <p class="card-text text-center">While MU College of Engineering offers many rescources for students to succeed acedemicaly, we believe that self-guided engineering projcets are important for devoloping a promlem-solving methology.</p>
+                        <p class="card-text text-center">Many soft skills, including design tean managment, project timeline and iterations, and effective communication and teamwork, as well as hard skills like 3-Dimensional Printing, soldering, circuit board design, and embedded microcontroller programming are not explicitly taught in lectures.</p>
+                        <p class="card-text text-center">We aim to educate new members on all of these skills and help them with achievable projects producing tangible results.</p>
+                        <p class="card-text text-center">Members gain valuable iterative design experience, but more importantly an understanding of how to learn more skills to achieve their goals.</p>
                     </div>
                 </div>
             </div>
@@ -200,15 +198,12 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!--<h5 class="card-title">Card title</h5>-->
+                        <p class="card-text text-center">The 3D Printing Club provides a space where members can try new ideas-- from 3D Printed furniture, to bionic prosthetic hands, to novel wallet designs, if you have an idea, we can help.</p>
+                        <p class="card-text text-center">There are no directions for the devices, hardware, and implementation we design; our work is driven by student generated ideas.</p>
+                        <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+
                     </div>
                 </div>
             </div>
@@ -227,16 +222,9 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                        <p class="card-text text-center">New and useful ideas are devoloped when diverse minds work together. We welcome students from any background, major, or experience to join.</p>
+                        <p class="card-text text-center">Our projects operate for people with disabilites in the MU community, Columbia area, and aim for international imapact.</p>
+                        </div>
                 </div>
             </div>
         </div>

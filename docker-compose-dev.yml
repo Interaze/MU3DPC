@@ -65,7 +65,7 @@ services:
 
   db:
     image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password
+    command: mysqld --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
       MYSQL_ROOT_USER: root
@@ -76,12 +76,11 @@ services:
     volumes:
       - ../3DPCDB:/var/lib/mysql
       - ./dbscripts:/scripts
-
     networks:
       - database
 
 volumes:
-  3dpcdb:
+  db:
     driver: local
 
 networks:

@@ -24,13 +24,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="First slide">
+                        <img class="d-block w-100 nodrag mx-auto" src="Images/Slide.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Second slide">
+                        <img class="d-block w-100 nodrag mx-auto" src="Images/Slide.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 nodrag mx-auto" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/42880975_1116623265153666_6510657429842165760_o.jpg?_nc_cat=108&_nc_ohc=T91yxD6Ma-YAX8e_iGi&_nc_ht=scontent-den4-1.xx&oh=d44790503663fe5eeea65097a83ec869&oe=5EBF8AAC" alt="Third slide">
+                        <img class="d-block w-100 nodrag mx-auto" src="Images/Slide.jpg" alt="Third slide">
                     </div>
                 </div>
                 </div>
@@ -48,7 +48,7 @@
         <div class="container border-left border-info Bsideshadow px-5">
             <h1 class="text-primary ">Recent Events</h1>
             <div class="row no-gutters" id="eventTray">
-                
+
             </div>
             <div class="row">
                 <a class="mx-auto" href="/Events">
